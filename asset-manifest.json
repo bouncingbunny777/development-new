@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/development/static/css/main.964c735b.css",
-    "main.js": "/development/static/js/main.989fad04.js",
-    "static/media/couture-bldit.otf": "/development/static/media/couture-bldit.43bbbb2c2ad8b53dda2f.otf",
-    "static/media/couture-bld.woff": "/development/static/media/couture-bld.7d238c243a43d3821a84.woff",
-    "index.html": "/development/index.html",
-    "main.964c735b.css.map": "/development/static/css/main.964c735b.css.map",
-    "main.989fad04.js.map": "/development/static/js/main.989fad04.js.map"
+    "main.css": "/development-new/static/css/main.d8d2fe5c.css",
+    "main.js": "/development-new/static/js/main.b8d80ce3.js",
+    "static/media/couture-bldit.otf": "/development-new/static/media/couture-bldit.43bbbb2c2ad8b53dda2f.otf",
+    "static/media/couture-bld.woff": "/development-new/static/media/couture-bld.7d238c243a43d3821a84.woff",
+    "index.html": "/development-new/index.html",
+    "main.d8d2fe5c.css.map": "/development-new/static/css/main.d8d2fe5c.css.map",
+    "main.b8d80ce3.js.map": "/development-new/static/js/main.b8d80ce3.js.map"
   },
   "entrypoints": [
-    "static/css/main.964c735b.css",
-    "static/js/main.989fad04.js"
+    "static/css/main.d8d2fe5c.css",
+    "static/js/main.b8d80ce3.js"
   ]
 }
