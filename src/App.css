@@ -1,3 +1,20 @@
+@import url('https://fonts.cdnfonts.com/css/couture');
+
+@font-face {
+  font-family: 'Couture Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Couture Bold'), url('assets/couture-bld.woff') format('woff');
+}
+  
+
+@font-face {
+  font-family: 'Couture Bold Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Couture Bold Italic'), url('assets/couture-bldit.otf') format('woff');
+}
+
 .App {
   text-align: center;
 }
@@ -13,26 +30,95 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
+  background-color: #000000;
+  min-height: 25vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(8px + 2vmin);
   color: white;
+  margin-bottom: 50px;
+  font-family: 'Couture Bold';
+  letter-spacing: 4px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.footer {
+ background-color: #000000;
+ min-height: 20vh;
+ display: flex; 
+ margin-top: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.card{
+  border: 0px;
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+  margin-top: 50px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 23vh;
+  object-fit: cover;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+h2{
+  font-size: calc(10px + 2vmin);
+  font-family: 'Couture Bold';
+}
+
+h3{
+  margin-top: 10px;
+  font-size: calc(2px + 1.5vmin);
+}
+
+h4{
+  font-family: 'Couture Bold';
+  margin-bottom: 30px;
+}
+
+h6{
+  margin-top: 35px;
+  font-family: 'Couture Bold';
+  margin-bottom: 30px;
+  font-size: calc(8px + 1.5vmin);
+}
+
+h5{
+  font-family: 'Couture Bold' !important;
+  font-size: calc(4px + 1.5vmin);
+  letter-spacing: 0.8px;
+}
+
+.btn-primary {
+  background-color: #000000 !important;
+  border-radius: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  border: 0px !important;
+}
+
+.btn-secondary {
+  background-color: #9c9c9c !important;
+  border-radius: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  border: 0px !important;
+}
+
+.btn{
+	box-shadow: none !important;
+  border: 0px !important;
+    /* this how we remove bootstrap button outline */
+}
+
+button{
+  border-radius:0 !important;
+}
+
+.nav > .active > a {
+  color: red;
 }
